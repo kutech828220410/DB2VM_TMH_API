@@ -138,6 +138,7 @@ namespace DB2VM
                     value[(int)enum_醫囑資料.開方日期] = orderClasses[i].開方時間;
                     value[(int)enum_醫囑資料.產出時間] = DateTime.Now.ToDateTimeString_6();
                     value[(int)enum_醫囑資料.過帳時間] = DateTime.MinValue.ToDateTimeString_6();
+
                     value[(int)enum_醫囑資料.狀態] = "未過帳";
                     list_value_Add.Add(value);
                 }
